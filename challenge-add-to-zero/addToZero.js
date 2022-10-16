@@ -26,3 +26,21 @@ const addToZero = (arr) => {
     console.log(equalsZero)
 }
 addToZero(array)
+
+// const addToZero = (arr) => {
+    
+//     for(i=0; i<arr.length; i++){
+//         for(j=0; j<arr.length; j++){
+
+//             if(arr[i] + arr[j] === 0){
+//                 console.log(arr[i], arr[j])
+//                 console.log('true')
+//                 break;
+                
+//             }
+//         }
+//     }
+
+// }
+// addToZero(array)
+// Sample of breaking early in a forloop- does not exit the forloop, just discontinues the interatation early- this sample of code will yield "true, true, true"
